@@ -1,29 +1,14 @@
 package com.company;
 
 public class Main {
-
     public static void main(String[] args) {
-        Display display = new Display(123, "USA", "Matrix");
-        System.out.println(display);
-        System.out.println( );
+        System.out.println("Модификаторы доступа - это ключевые слова, которые задают допустимую " +
+                "видимость элементов класса из/для других классов(пакетов)");
+        System.out.println("public, private, protected, default");
+        System.out.println("Packages - это пакеты. Они нужны для того, чтобы разделить похожие классы.");
+        System.out.println("Default - есть доступ в свой класс и пакет. Public - имеет доступ на все.");
+        System.out.println("Если сеттер сделать private, кто-то не может поменять значение переменной." +
+                " А public getter, чтобы просто получить данные. ");
 
-        User user = new User("ABC", "LOGIN", 20, "qwerty", false);
-        System.out.println(user);
-        System.out.println( );
-
-        HardDisk hardDisk = new HardDisk(2000 , 4);
-        System.out.println(hardDisk);
-        System.out.println( );
-
-        Keyboards keyboards = new Keyboards(true, true);
-        System.out.println(keyboards);
-        System.out.println( );
-
-        Ram ram = new Ram(8, "USA");
-        System.out.println(ram);
-        System.out.println( );
-
-        UsbPort usbPort = new UsbPort("2.0", "123456");
-        System.out.println(usbPort);
     }
 }
