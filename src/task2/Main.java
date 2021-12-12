@@ -1,10 +1,5 @@
 package task2;
 
-import task2.product.Milk;
-import task2.product.Tea;
-
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
 //        Tea tea = new Tea("Tea", 200);

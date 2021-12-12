@@ -52,5 +52,17 @@ public class Main {
         Credit.average = Credit.sumTotal / Credit.count;
         System.out.println("Средняя сумма кредитов: " + Credit.average);
 
+
+        // Задание В
+        System.out.println("1.Инкапсуляция - это сокрытие реализации и защита данных от внешних изменений.");
+        System.out.println("1.Модификаторы доступа и пакеты");
+        System.out.println("2.Наследование - позволяющий описать новый класс на основе уже существующего(базового/родительского.");
+        System.out.println("2.Отец-сын(глаза, характер могут  наследоваться от отца к сыну) ");
+        System.out.println("3.Static - это модификатор, применяемый к полю, блоку, методу или внутреннему классу");
+        System.out.println("4.Чтобы указывает на  привязку субъекта  к текущему классу.");
+        System.out.println("5.Да.");
+        System.out.println("6.Можно обратиться к ней в программе по имени класса. ");
+        System.out.println("7.Сделать setter private and public getter.. ");
+
     }
 }

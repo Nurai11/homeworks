@@ -9,6 +9,10 @@ public class Main {
         System.out.println("Default - есть доступ в свой класс и пакет. Public - имеет доступ на все.");
         System.out.println("Если сеттер сделать private, кто-то не может поменять значение переменной." +
                 " А public getter, чтобы просто получить данные. ");
+        System.out.println("class variables, instance variables,паттерное проектирование, idgaf, ipgaf.");
+
+
+
 
     }
 }

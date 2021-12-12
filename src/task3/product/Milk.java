@@ -11,6 +11,23 @@ public class Milk extends Product {
         this.liter = liter;
     }
 
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getLiter() {
+        return liter;
+    }
+
+    public void setLiter(int liter) {
+        this.liter = liter;
+    }
+
     @Override
     public String toString() {
         return name + " " + price + " " + manufacturer + " " + color + " " + liter;
